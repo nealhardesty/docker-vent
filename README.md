@@ -3,6 +3,6 @@ Simple Docker Container Build for Ventrilo Server
 
 
 ---
-'''./docker_run.sh''' builds and runs it.
+```docker_run.sh``` builds and runs it.
 
-Add '''AdminPassword''' / '''Password''' and change '''VoiceCodec''' and '''VoiceFormat''' in '''ventrilo_srv.ini''' before building.
+Change config options in ```ventrilo_srv.ini``` before building.  Speex is the current voice format.
